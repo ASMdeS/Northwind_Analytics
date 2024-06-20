@@ -1,35 +1,68 @@
-Metodologia
-Fonte
-A fonte para o trabalho foram os arquivos CSV da Northwind Traders, empresa fictícia da Microsoft, criada para ajudar no aprendizado de produtos da gigante da tecnologia
-Ferramenta Utilizada
-O Power BI foi utilizado para a realização deste trabalho, já que leva ao resultado com a mais fácil visualização e leitura e a menor curva de aprendizagem.
-Panorama Geral da Empresa
-O processo de vendas da empresa funciona da seguinte forma:
-Fornecedores > Northwind > Transportadores > Clientes
-Sendo assim, vamos analisar parte a parte o seu processo de negócios.
-Vendas
-Tabela com informações sobre as vendas da empresa: Vemos abaixo, o faturamento da empresa, que foi de 1.3 milhão de dólares, e seu lucro de 1.2 milhão (entenda lucro como faturamento - frete, já que não temos noção dos outros custos da empresa).
-Gráfico de linha com o lucro mensal da empresa: Nele, podemos ver que o melhor mês foi abril de 1998, com um lucro de 120 mil e o pior agosto de 1996 com um lucro de apenas 24 mil.
-Gráfico com o crescimento mensal do lucro da empresa: Nele, podemos ver variações bruscas, indicando ser uma empresa pouco estável.
-Slicers: Com eles, podemos filtrar as vendas por fornecedor, empregado, transportador ou cliente.
-Fornecedores
-Receita por país: a Europa Continental se destaca, com a Alemanha fornecendo mercadorias equivalentes a 200 mil da Northwind e a França 280 mil. Além disso, a Austrália se destaca, com 170 mil de receita, superando países com economias maiores, como EUA e Reino Unido.
-Receitas por Fornecedor: os 4 maiores fornecedores são responsáveis por 40% da receita de vendas de mercadoria da empresa. É importante verificar se a empresa está utilizando corretamente o seu poder de barganha sobre eles e verificar o risco de um atraso ou cancelamento de pedidos por parte deles.
-Receita por Categoria: bebidas e laticínios são as principais fontes de receita da empresa, sendo responsáveis por um quinto cada. Isso explica a importância da França, que sedia os principais fornecedores desses setores.
-Receita por Status do Produto: quase 20% das receitas foram de produtos que serão/estão descontinuados. Isso é extremamente perigoso. É necessário conversar com os fornecedores para garantir que produtos bem vendidos continuem nas prateleiras, ou que sucessores sejam encontrados rapidamente.
-Empregados
-Foi construído um organograma que exibe informações sobre o desempenho dos funcionários, seu país, e seu cargo. Caso o usuário passe com o mouse sobre um dos cartões de funcionário, é possível também ler a biografia do trabalhador em questão.
-No organograma, vemos que os EUA superam com força o RU em termos de faturamento.
-É notável a superioridade de King, que já trabalhou no escritório estadunidense, em relação aos seus colegas de trabalho no Reino Unido. É necessário avaliar a possibilidade de promoção de King, além de pedir que ele passe seus conhecimentos aos seus pares.
-Já nos EUA, os representantes comerciais se mostram bem equivalentes em termos de desempenho. Apesar disso, Peacock, que já trabalhou no escritório londrino, é a melhor vendedora.
-Então, conclui-se que a rotação de empregados em diferentes escritórios é positiva para a empresa.
-Fornecedores
-Frete por Transportadora: a United Package é a maior transportadora da Northwind, seguida pela Federal Shipping e, por último, a Speedy Express.
-Tempo de entrega por Transportadora: calculado pela diferença de tempo entre um produto ser pedido e a transportadora iniciar o processo de entrega, ele nos mostra um tempo maior para a United Package e menor para a Federal Shipping.
-Porcentagem de produtos com entrega no prazo: a métrica de Time_To_Destination, calculada pela diferença da data de envio do pedido e do prazo estipulado para a entrega, nos mostra os pedidos em que a entrega foi iniciada antes do prazo terminar. Demonstra uma relação inversa ao tempo de entrega por transportadora.
-Tempo de destino por Transportadora: nos mostra uma relação inversa ao tempo de entrega novamente, reforçando o bom trabalho da Federal Shipping, que tem um número maior de dias até a entrega da mercadoria.
-Clientes
-Lucro por país: economias mais fortes, como os EUA e a Alemanha, demonstram desempenho superior. O baixo desempenho do Reino Unido novamente indica que talvez seja interessante realocar o escritório para a Europa Continental. A Áustria chama a atenção pela sua importância no lucro da empresa.
-Lucro por Cliente: melhor distribuído que os fornecedores, há um alto número de clientes. A Ernst Handel se destaca, sendo responsável pela vasta maioria do lucro na Áustria.
-Contagem por cargo de contato: há um alto número de donos e gerentes de venda que mantêm contato com a empresa.
-Lucro por cargo de contato: diferentemente do que as informações no visual acima nos mostra, o cargo de Gerente de Contas é o mais lucrativo para a empresa. Possivelmente, isso ocorre pelo fato de eles serem os responsáveis por alocar os recursos para a compra. O approach da empresa aos clientes deve ser feito através deles. Além disso, percebe-se que os donos têm uma baixa participação no lucro comparado a sua frequência, já que ocorre em empresas menores.
+Northwind Data Analysis Project
+Project Overview
+
+This project involves analyzing data from Northwind Traders, a fictitious company created by Microsoft to aid in learning their products. The analysis was performed using Power BI to ensure easy visualization, readability, and a minimal learning curve.
+Author Information
+
+    Name: Arthur Santos Marinho de Souza
+    Degree: Information Systems - UFPE (CIn)
+    Duration: 2023.1 - 2026.2
+    Affiliation: UFPE Finance
+
+Date
+
+    Completion Date: June 17, 2024
+
+Methodology
+Data Source
+
+    The data for this project comes from CSV files of Northwind Traders.
+
+Tools Used
+
+    Power BI was utilized for this project due to its powerful visualization capabilities and ease of use.
+
+Company Overview
+
+The sales process of Northwind Traders operates as follows:
+
+    Suppliers > Northwind > Shippers > Customers
+
+Each segment of the business process is analyzed as follows:
+Sales Analysis
+
+    Total Revenue: $1.3 million
+    Total Profit: $1.2 million (Revenue - Freight Costs)
+
+Visuals
+
+    Monthly Profit Line Chart: Shows April 1998 as the best month ($120,000 profit) and August 1996 as the worst month ($24,000 profit).
+    Monthly Profit Growth Chart: Displays significant fluctuations, indicating business instability.
+    Slicers: Allow filtering sales by supplier, employee, shipper, or customer.
+
+Supplier Analysis
+
+    Revenue by Country: Continental Europe is prominent, with Germany ($200,000) and France ($280,000) being major suppliers. Australia also stands out with $170,000 in revenue.
+    Revenue by Supplier: The top four suppliers account for 40% of merchandise sales revenue. It's crucial to leverage bargaining power and manage risks of delays or cancellations.
+    Revenue by Category: Beverages and dairy products each contribute 20% to the revenue, highlighting France's importance due to its key suppliers in these sectors.
+    Revenue by Product Status: Nearly 20% of revenue comes from products that are or will be discontinued, necessitating discussions with suppliers to maintain or replace popular products.
+
+Employee Analysis
+
+    An organizational chart provides performance data, country, and position details. Hovering over an employee card reveals their biography.
+    The U.S. outperforms the UK in revenue generation. Notably, King, who has worked in the U.S. office, shows superior performance. Consider promoting King and facilitating knowledge transfer.
+    In the U.S., sales representatives show comparable performance, with Peacock, a former UK office employee, being the top seller. Employee rotation between offices is beneficial.
+
+Shipper Analysis
+
+    Freight by Shipper: United Package is the largest shipper, followed by Federal Shipping and Speedy Express.
+    Delivery Time by Shipper: United Package has the longest delivery time, while Federal Shipping has the shortest.
+    On-Time Delivery Percentage: The Time_To_Destination metric shows that Federal Shipping excels in on-time deliveries.
+    Destination Time by Shipper: Confirms Federal Shipping's superior performance in timely deliveries.
+
+Customer Analysis
+
+    Profit by Country: Strong economies like the U.S. and Germany lead in performance. The UK's low performance suggests considering relocating the office to Continental Europe. Austria also significantly contributes to profit.
+    Profit by Customer: Revenue distribution is broad, with Ernst Handel being a notable contributor in Austria.
+    Contact Role Count: High numbers of owners and sales managers maintain contact with the company.
+    Profit by Contact Role: Account Managers are the most profitable, likely due to their resource allocation responsibilities. The company's approach should focus on these contacts. Despite their frequency, owners contribute less to profit, reflecting smaller company sizes.
